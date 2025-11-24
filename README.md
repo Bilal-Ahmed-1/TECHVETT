@@ -1,9 +1,15 @@
 ✨ 📌 Project Overview
 
-This Final Year Project (FYP) is a full-stack recruitment management system built with Laravel & Vue.js.
+This project is a full-stack Recruitment Management System developed using Laravel and Vue.js, designed to automate and streamline an end-to-end hiring process.
+It includes two fully functional portals — a User Portal for candidates and an HR Portal for recruiters — connected through secure APIs and a multi-database architecture.
+
+The system supports a three-stage evaluation process, automated scoring, real-time data syncing, and HR decision-making with email notifications.
+
 It features two separate portals:
 
+<br>
 🔵 1. User Portal (Candidate Side)
+<br>
 
    * Candidate Registration & Login
 
@@ -14,8 +20,9 @@ It features two separate portals:
    * Clean Exam Interface
 
    * Automatic Data Sync to HR Portal
-
+<br>
 🟠 2. HR Portal (Company Side)
+<br>
 
    * Candidate Dashboard
 
@@ -31,23 +38,26 @@ It features two separate portals:
 
    * Multi-DB Architecture (User DB + HR DB + Company DB)
 
+<br>
+🏗️ System Architecture (3D Styled Overview)
 
-🏗️ Project Architecture (3D Style Diagram)
-
-           🟦 USER PORTAL (Laravel + Vue)
+</br>
+  
+ 🟦 USER PORTAL (Laravel + Vue)
  ---------------------------------------------------
- | Candidate Register/Login                        |
- | MCQ Tests (Stage 1 & 2)                         |
- | Frontend: Vue.js                                |
+ | Stage 1 - Basic MCQS                            |
+ | Stage 2 - Image-Base MCQS                       |
+ | Stage 3 - Voice Over Voice Analysis             |
+ | Candidate Login/Register                        |
  | DB: user_portal_db                              |
  ---------------------------------------------------
-             ||   Real-Time Data Sync (API)
+             ||        Real-Time Sync (API)
              ||
              \/
-           🟧 HR PORTAL (Admin Panel)
+ 🟧 HR PORTAL (Admin Panel)
  ---------------------------------------------------
  | Candidate Management                             |
- | Scores Overview                                  |
+ | View Stage 1, 2, 3 Scores                        |
  | Accept / Pending / Reject                        |
  | SMTP Email Alerts                                |
  | DB: hr_portal_db                                 |
@@ -55,12 +65,15 @@ It features two separate portals:
                   ||
                   ||
                   \/
-           🟩 SHARED COMPANY DB
+ 🟩 SHARED COMPANY DATABASE
 
-
+<br>
 🚀 Technologies Used
+<br>
 
+<br>
 Frontend
+<br>
 
   * Vue.js
 
@@ -70,7 +83,9 @@ Frontend
 
   * SweetAlert for Popup Confirmation
 
+<br>
 Backend
+<br>
 
   * Laravel (PHP)
 
@@ -78,7 +93,9 @@ Backend
 
   * Multiple Database Connections
 
+<br>
 Database
+<br>
 
   * MySQL
 
@@ -86,7 +103,9 @@ Database
 
   * Test Scores + Candidate Info
 
+<br>
 Other
+<br>
 
   * Gmail SMTP
 
@@ -94,46 +113,61 @@ Other
 
   * Laravel Eloquent ORM
 
+<br>
+🎯 Core Functionality
+<br>
 
-🎯 Key Features
+<br>
+⭐ User Portal
+<br>
 
-⭐ User Portal (Candidates):
+   * 3-stage recruitment flow
 
-   * Create Account
+   * Stage unlocking logic
 
-   * Attempt MCQ Tests
+   * Auto-scoring and evaluation
 
-   * Stage-Based Flow (Stage 1 → Stage 2 → Interview)
+   * Real-time data sync
 
-   * Automated Result Generation
+   * Fully responsive exam UI
 
-   * Neat UI / UX for Tests
+<br>
+⭐ HR Portal
+<br>
 
-⭐ HR Portal (Recruiters):
+   * Candidate list & filters
 
-   * Candidate List + Filters
+   * Stage 1 / Stage 2 / Stage 3 detailed scores
 
-   * Candidate Score Dashboard
+   * Email notification on action
 
-   * Accept / Reject / Pending
+   * Multi-database management
 
-   * Email Notification Trigger
+   * Confirmation alerts before status updates
 
-   * Real-Time SQA & Networking Candidate Tables
+<br>
+⭐ Advanced Features
+<br>
 
-   * Multi-DB Live Fetching
+   * Secured API communication
 
-⭐ Advanced Features:
+   * Multi-database architecture
 
-   * Secure API Sync
+   * Dynamic Vue.js components
 
-   * 3-Database Integration
+   * Expandable system design
 
-   * Vue.js Dynamic Components
+   * Optional: Data visualization charts
 
-⭐ Recruitment System – FYP Project
+<br>
+⭐ Recruitment Management System
+<br>
 
-A Complete User + HR Hiring Platform with Real-Time Evaluation
+A complete multi-stage hiring platform with:<br>
+✔ Three-stage evaluation
+✔ Dual portals
+✔ Email automation
+✔ Real-time syncing
+✔ Multi-database architecture
+
 <p align="center"> <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" /> </p>
-
-Test Results Charts (optional future upgrade)
