@@ -1,6 +1,3 @@
-⭐ Recruitment System – FYP Project
-A Complete User + HR Hiring Platform with Real-Time Evaluation
-<p align="center"> <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" /> </p>
 ✨ 📌 Project Overview
 
 This Final Year Project (FYP) is a full-stack recruitment management system built with Laravel & Vue.js.
@@ -8,33 +5,35 @@ It features two separate portals:
 
 🔵 1. User Portal (Candidate Side)
 
-Candidate Registration & Login
+   * Candidate Registration & Login
 
-MCQ-Based Tests (Stage-1 & Stage-2)
+   * MCQ-Based Tests (Stage-1 & Stage-2)
 
-Real-Time Test Evaluation
+   * Real-Time Test Evaluation
 
-Clean Exam Interface
+   * Clean Exam Interface
 
-Automatic Data Sync to HR Portal
+   * Automatic Data Sync to HR Portal
 
 🟠 2. HR Portal (Company Side)
 
-Candidate Dashboard
+   * Candidate Dashboard
 
-View User Test Scores (MCQ Stages)
+   * View User Test Scores (MCQ Stages)
 
-Accept / Pending / Reject Actions
+   * Accept / Pending / Reject Actions
 
-Gmail SMTP Email Notifications
+   * Gmail SMTP Email Notifications
 
-Popup Confirmation Alerts
+   * Popup Confirmation Alerts
 
-Real-Time User Portal Sync
+   * Real-Time User Portal Sync
 
-Multi-DB Architecture (User DB + HR DB + Company DB)
+   * Multi-DB Architecture (User DB + HR DB + Company DB)
+
 
 🏗️ Project Architecture (3D Style Diagram)
+
            🟦 USER PORTAL (Laravel + Vue)
  ---------------------------------------------------
  | Candidate Register/Login                        |
@@ -58,74 +57,83 @@ Multi-DB Architecture (User DB + HR DB + Company DB)
                   \/
            🟩 SHARED COMPANY DB
 
+
 🚀 Technologies Used
+
 Frontend
 
-Vue.js
+  * Vue.js
 
-Tailwind CSS
+  * Tailwind CSS
 
-Axios
+  * Axios
 
-SweetAlert for Popup Confirmation
+  * SweetAlert for Popup Confirmation
 
 Backend
 
-Laravel (PHP)
+  * Laravel (PHP)
 
-REST API for Sync
+  * REST API for Sync
 
-Multiple Database Connections
+  * Multiple Database Connections
 
 Database
 
-MySQL
+  * MySQL
 
-Multi-DB Configuration
+  * Multi-DB Configuration
 
-Test Scores + Candidate Info
+  * Test Scores + Candidate Info
 
 Other
 
-Gmail SMTP
+  * Gmail SMTP
 
-Real-Time Sync API
+  * Real-Time Sync API
 
-Laravel Eloquent ORM
+  * Laravel Eloquent ORM
+
 
 🎯 Key Features
-⭐ User Portal (Candidates)
 
-Create Account
+⭐ User Portal (Candidates):
 
-Attempt MCQ Tests
+   * Create Account
 
-Stage-Based Flow (Stage 1 → Stage 2 → Interview)
+   * Attempt MCQ Tests
 
-Automated Result Generation
+   * Stage-Based Flow (Stage 1 → Stage 2 → Interview)
 
-Neat UI / UX for Tests
+   * Automated Result Generation
 
-⭐ HR Portal (Recruiters)
+   * Neat UI / UX for Tests
 
-Candidate List + Filters
+⭐ HR Portal (Recruiters):
 
-Candidate Score Dashboard
+   * Candidate List + Filters
 
-Accept / Reject / Pending
+   * Candidate Score Dashboard
 
-Email Notification Trigger
+   * Accept / Reject / Pending
 
-Real-Time SQA & Networking Candidate Tables
+   * Email Notification Trigger
 
-Multi-DB Live Fetching
+   * Real-Time SQA & Networking Candidate Tables
 
-⭐ Advanced Features
+   * Multi-DB Live Fetching
 
-Secure API Sync
+⭐ Advanced Features:
 
-3-Database Integration
+   * Secure API Sync
 
-Vue.js Dynamic Components
+   * 3-Database Integration
+
+   * Vue.js Dynamic Components
+
+⭐ Recruitment System – FYP Project
+
+A Complete User + HR Hiring Platform with Real-Time Evaluation
+<p align="center"> <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" /> </p>
 
 Test Results Charts (optional future upgrade)
