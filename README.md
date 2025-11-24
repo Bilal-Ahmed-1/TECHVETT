@@ -1,3 +1,6 @@
+🚀 Recruitment System – Multi-Stage Candidate Evaluation Platform
+
+
 ✨ 📌 Project Overview
 
 This project is a full-stack Recruitment Management System developed using Laravel and Vue.js, designed to automate and streamline an end-to-end hiring process.
