@@ -1,0 +1,131 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #212626 !important;
+  color: #ffffff !important;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #212626 !important;
+}
+
+.container-fluid {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+  background-color: #212626 !important;
+}
+
+aside {
+  background-color: #1f1f1f !important;
+  min-height: 100vh !important;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background-color: #2a2a2a !important;
+  border-color: #4b5563 !important;
+  color: #ffffff !important;
+}
+
+.card a {
+  color: #60a5fa !important;
+}
+
+.btn-outline-secondary {
+  background-color: #3a3a2a !important;
+  border-color: #4b5563 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #4a4a4a !important;
+}
+
+.progress-circle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.progress-circle svg circle {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.progress-circle .text-muted {
+  stroke: #4b5563 !important;
+  stroke-width: 4;
+}
+
+.progress-circle .text-success {
+  stroke: #34d399 !important;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.progress-circle span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+
+.badge {
+  font-size: 0.75rem;
+}
+
+.badge.bg-success {
+  background-color: rgba(52, 211, 153, 0.2) !important;
+  color: #34d399 !important;
+}
+
+.badge.bg-danger {
+  background-color: rgba(248, 113, 113, 0.2) !important;
+  color: #f87171 !important;
+}
+
+.badge.bg-warning {
+  background-color: rgba(251, 191, 36, 0.2) !important;
+  color: #fbbf24 !important;
+}
+
+/* .table {
+  color: #ffffff !important;
+  background-color: #2a2a2a !important;
+}
+
+.table th {
+  border-bottom: 1px solid #4b5563 !important;
+  background-color: #2a2a2a !important;
+}
+
+.table td {
+  border-top: 1px solid #4b5563 !important;
+  background-color: #2a2a2a !important;
+} */
+
+.progress {
+  background-color: #4b5563 !important;
+}
+
+.progress-bar {
+  color: #ffffff !important;
+}
+
+input.form-control {
+  background-color: #2a2a2a !important;
+  border-color: #4b5563 !important;
+  color: #ffffff !important;
+}
+
+input.form-control::placeholder {
+  color: #9ca3af !important;
+}

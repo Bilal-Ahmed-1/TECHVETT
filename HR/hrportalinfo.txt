@@ -1,0 +1,8 @@
+Categories: 
+Graph nahin rakhna 
+view record ki jaga filter rakhna hai
+unique id kai sath gmail, username, field,qualification,age,location,cnic. 
+stage1, stage2 and stage3 ki jaga  
+Assessment page main users ki history hogi like user_id, name, progress of each stages.
+Candidates page main user ki resume upload hogi ek side per or dosre side per user kai 
+stages kai result ki summary from user database under that the three buttons accept, reject and pending.

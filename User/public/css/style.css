@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap");
+
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.leftside{
+  display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+}
+
+.main {
+  min-height: 95.5vh;
+  width: 100%;
+  background-color: #212626;
+  overflow: hidden;
+  transition: all 0.35s ease-in-out;
+}
+
+#sidebar {
+  width: 90px;
+    min-width: 90px;
+    z-index: 1000;
+    transition: all 0.25s ease-in-out;
+    background: #212626;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 9px 13px 7px 5px rgba(0,0,0,0.61);
+    -moz-box-shadow: 9px 13px 7px 5px rgba(0,0,0,0.61);
+    box-shadow: 9px 13px 7px 5px rgba(0,0,0,0.61);
+}
+
+#sidebar.expand {
+  width: 300px;
+  min-width: 300px;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  padding: 1.5rem 1.2rem;
+}
+
+.toggle-btn i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.sidebar-logo {
+  margin: auto 0;
+}
+
+.sidebar-logo a {
+  color: #09c3e4;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+#sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span {
+  display: none;
+}
+
+.sidebar-nav {
+  padding: 1rem 0;
+  flex: 1 1 auto;
+}
+
+a.sidebar-link {
+  padding: 1rem 1.625rem;
+    color: #09c3e4;
+    display: block;
+    font-weight: 600;
+    font-size: 1.3rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-nav i {
+  font-size: 1.1rem;
+  margin-right: 0.75rem;
+  color: #09c3e4;
+}
+
+.sidebar-item i {
+  font-size: 1.7rem;
+  margin-right: 1.75rem;
+  color: #09c3e4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.nav-item i{
+  font-size: 1.1rem;
+  margin-right: 0.75rem;
+  color: #09c3e4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a.sidebar-link:hover {
+  background-color: black;
+  border-left: 3px solid white;
+}
+
+.sidebar-item {
+  position: relative;
+}
+
+#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  background-color: white;
+  color: black;
+  padding: 0;
+  min-width: 15rem;
+  display: none;
+}
+
+#sidebar:not(.expand) .sidebar-item:hover .has-dropdown + .sidebar-dropdown {
+  display: block;
+  max-height: 15em;
+  width: 100%;
+  opacity: 1;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
+ border: solid;
+    border-width: 0 0.075rem 0.075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    right: 1.5rem;
+    top: 2.3rem;
+    transform: rotate(-135deg);
+    transition: all 0.2s ease-out;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+  transform: rotate(45deg);
+  transition: all 0.2s ease-out;
+}
+
+.card {
+  color: #09c3e4;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px;
+  -webkit-box-shadow: 9px 13px 7px 5px rgba(0,0,0,0.61);
+  -moz-box-shadow: 9px 13px 7px 5px rgba(0,0,0,0.61);
+  box-shadow: 9px 13px 7px 5px rgba(0,0,0,0.61);
+}
+
+.A {
+  display: flex;
+  align-items: flex-start;
+}
+
+.A2 {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.category {
+  display: flex;
+  margin: 60px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.card .C {
+  border-radius: 5px;
+  width: 260px;
+  height: 280px;
+  padding-top: 35px;
+}
+
+.card-body-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .B {
+  border-radius: 5px;
+  width: 260px;
+  padding-top: 35px;
+  height: 280px;
+}
+
+.main-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-2 {
+  width: 300px;
+}
+
+.btn {
+  border: 2px solid #09c3e4;
+  background-color: #212626;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  animation: transitionIn 0.75s;
+}
+
+.radio-tile-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap:10rem;
+}
+
+.input-container {
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    margin: 0.5rem;
+}
+
+    .input-container input {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        cursor: pointer;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    .input-container .radio-tile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        border: 2px solid black;
+        border-radius: 8px;
+        transition: all 300ms ease;
+    }
+
+    .input-container ion-icon {
+        color: black;
+        font-size: 3rem;
+    }
+
+    .input-container label {
+        color: black;
+        font-size: 0.80rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+input:checked + .radio-tile {
+    background-color: grey;
+    box-shadow: 0 0 12px black;
+    transform: scale(1.1);
+}
+
+input:hover + .radio-tile {
+    box-shadow: 0 0 12px black;
+}
+
+input:checked + .radio-tile ion-icon,
+input:checked + .radio-tile label {
+    color: white;
+}
+
+.button-30 {
+  border-color: linear-gradient(90deg, rgba(0,208,255,1) 50%, rgba(33,38,38,1) 100%);
+  color: white;
+}
+
+.button-30:hover {
+  background-color: linear-gradient(90deg, rgba(0,208,255,1) 50%, rgba(33,38,38,1) 100%);
+  color: black;
+}
